@@ -1,4 +1,4 @@
-# $Revision: 1.1 $
+# $Revision: 1.2 $
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Attribute
 %define	pnam	Handlers
@@ -21,6 +21,13 @@ subsequently defined in that package, or in packages derived from that
 package may be given attributes with the same names as the attribute
 handler subroutines, which will then be called at the end of the
 compilation phase (i.e. in a `CHECK' block).
+
+%description -l pl
+Ten modu³ pozwala klasom pakietu definiowaæ podprogramy obs³ugi
+atrybutów. Zmienne i podprogramy zdefiniowane w danym pakiecie lub
+pakietach wywodz±cych siê od pakietu mog± otrzymaæ atrybuty o tych
+samych nazwach co podprogramy obs³ugi, które zostan± wywo³ane na koñcu
+fazy kompilacji (w bloku "CHECK").
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
