@@ -4,7 +4,7 @@
 Summary:	Attribute::Handlers perl extension
 Summary(pl):	Rozszerzenie perla: Attribute::Handlers
 Name:		perl-Attribute-Handlers
-Version:	0.76
+Version:	0.77
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
