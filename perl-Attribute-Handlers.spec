@@ -1,11 +1,15 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Attribute
-%define	pnam	Handlers
+%define		pdir	Attribute
+%define		pnam	Handlers
 Summary:	Attribute::Handlers Perl extension
 Summary(pl):	Rozszerzenie Perla Attribute::Handlers
 Name:		perl-Attribute-Handlers
 Version:	0.77
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -35,7 +39,7 @@ fazy kompilacji (w bloku "CHECK").
 %build
 perl Makefile.PL
 %{__make}
-%{__make} test
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -48,5 +52,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/Attribute
+%{perl_sitelib}/Attribute/Handlers.pm
 %{_mandir}/man3/*
