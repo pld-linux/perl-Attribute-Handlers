@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Attribute
 %define	pnam	Handlers
-Summary:	Attribute-Handlers perl extension
-Summary(pl):	Rozszerzenie perla: Attribute-Handlers
+Summary:	Attribute::Handlers perl extension
+Summary(pl):	Rozszerzenie perla: Attribute::Handlers
 Name:		perl-Attribute-Handlers
 Version:	0.76
 Release:	1
