@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Attribute
-%define		pnam	Handlers
+%define	pdir	Attribute
+%define	pnam	Handlers
 Summary:	Attribute::Handlers - simpler definition of attribute handlers
 Summary(pl):	Attribute::Handlers - prostsze definiowanie programów obs³ugi atrybutów
 Name:		perl-Attribute-Handlers
