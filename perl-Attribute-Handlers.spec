@@ -5,12 +5,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Attribute
 %define		pnam	Handlers
-Summary:	Attribute::Handlers Perl extension
-Summary(pl):	Rozszerzenie Perla Attribute::Handlers
+Summary:	Attribute::Handlers - simpler definition of attribute handlers
+Summary(pl):	Attribute::Handlers - prostsze definiowanie programów obs³ugi atrybutów
 Name:		perl-Attribute-Handlers
 Version:	0.78
 Release:	2
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c935f240bee1baf4b46e7d69bf2f1636
