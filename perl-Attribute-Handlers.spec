@@ -9,7 +9,7 @@ Summary:	Attribute::Handlers - simpler definition of attribute handlers
 Summary(pl):	Attribute::Handlers - prostsze definiowanie programów obs³ugi atrybutów
 Name:		perl-Attribute-Handlers
 Version:	0.78
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
