@@ -1,0 +1,3 @@
+- tests on bcond
+- remove %%{perl_sitelib}/Attribute dir (moved to perl)
+- release 3
