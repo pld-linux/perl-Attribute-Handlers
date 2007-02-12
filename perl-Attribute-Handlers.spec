@@ -6,7 +6,7 @@
 %define		pdir	Attribute
 %define		pnam	Handlers
 Summary:	Attribute::Handlers - simpler definition of attribute handlers
-Summary(pl):	Attribute::Handlers - prostsze definiowanie programów obs³ugi atrybutów
+Summary(pl.UTF-8):   Attribute::Handlers - prostsze definiowanie programÃ³w obsÅ‚ugi atrybutÃ³w
 Name:		perl-Attribute-Handlers
 Version:	0.78
 Release:	3
@@ -28,11 +28,11 @@ package may be given attributes with the same names as the attribute
 handler subroutines, which will then be called at the end of the
 compilation phase (i.e. in a `CHECK' block).
 
-%description -l pl
-Ten modu³ pozwala klasom pakietu definiowaæ podprogramy obs³ugi
-atrybutów. Zmienne i podprogramy zdefiniowane w danym pakiecie lub
-pakietach wywodz±cych siê od pakietu mog± otrzymaæ atrybuty o tych
-samych nazwach co podprogramy obs³ugi, które zostan± wywo³ane na koñcu
+%description -l pl.UTF-8
+Ten moduÅ‚ pozwala klasom pakietu definiowaÄ‡ podprogramy obsÅ‚ugi
+atrybutÃ³w. Zmienne i podprogramy zdefiniowane w danym pakiecie lub
+pakietach wywodzÄ…cych siÄ™ od pakietu mogÄ… otrzymaÄ‡ atrybuty o tych
+samych nazwach co podprogramy obsÅ‚ugi, ktÃ³re zostanÄ… wywoÅ‚ane na koÅ„cu
 fazy kompilacji (w bloku "CHECK").
 
 %prep
