@@ -6,7 +6,7 @@
 %define		pdir	Attribute
 %define		pnam	Handlers
 Summary:	Attribute::Handlers - simpler definition of attribute handlers
-Summary(pl.UTF-8):   Attribute::Handlers - prostsze definiowanie programów obsługi atrybutów
+Summary(pl.UTF-8):	Attribute::Handlers - prostsze definiowanie programów obsługi atrybutów
 Name:		perl-Attribute-Handlers
 Version:	0.78
 Release:	3
