@@ -8,13 +8,13 @@
 Summary:	Attribute::Handlers - simpler definition of attribute handlers
 Summary(pl.UTF-8):	Attribute::Handlers - prostsze definiowanie programów obsługi atrybutów
 Name:		perl-Attribute-Handlers
-Version:	0.78
-Release:	4
+Version:	0.85
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c935f240bee1baf4b46e7d69bf2f1636
+# Source0-md5:	0ea01eba77814d96ddf8b8fecb230da9
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
